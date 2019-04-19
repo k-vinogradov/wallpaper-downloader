@@ -1,0 +1,23 @@
+dist: xenial
+language: python
+branches:
+  except:
+  - /^Release-.*$/
+python:
+  - "3.7"
+install:
+  - pip install -r requirements-dev.txt
+script:
+  - make install-dev
+  - make check-code
+  - make test
+  - make build-package
+deploy:
+  provider: releases
+  api_key: $GITHUB_TOKEN
+  file_glob: true
+  file: ./dist/*
+  skip_cleanup: true
+  name: "Release $TRAVIS_TAG - build $TRAVIS_BUILD_NUMBER"
+  on:
+    tags: true
