@@ -3,7 +3,9 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/d7bb3b13b6513d6d40e8/maintainability)](https://codeclimate.com/github/k-vinogradov/wallpaper-downloader/maintainability)
 [![Build Status](https://travis-ci.org/k-vinogradov/wallpaper-downloader.svg?branch=master)](https://travis-ci.org/k-vinogradov/wallpaper-downloader)
 
-It's a solution for code challenge by Ostrovok. Original description can be found [here](https://github.com/ostrovok-team/code-challenge/tree/master/python). **The only purpose of the project is improving of my Python developer skills**.
+It's a solution for code challenge by Ostrovok. Original description can be found [here](https://github.com/ostrovok-team/code-challenge/tree/master/python).
+
+**The only project purpose is improving of my Python developer skills**.
 
 ## Install
 
